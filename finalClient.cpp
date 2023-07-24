@@ -119,15 +119,15 @@ int main()
 	  //------------------- ADD A CAR ---------------------------------
 	case 3: // this choice will add an entered car to the hash table
 	  // get all of the information of a car to add
-	  cout << "Enter the year of the car: "; yr = getYear();
-          cout << "Enter the brand: "; brnd = getBrand();
+	  cout << "Enter the year of the car: "; yr = getYear();      
+    cout << "Enter the brand: "; brnd = getBrand();
 	  cout << "Enter the model: "; mdl = getModel(); 
 	  cout << "Enter the city MPG: "; ctyMPG = getMPG();
 	  cout << "Enter the highway MPG: "; hwyMPG = getMPG();
 	  cout << "Enter the starting price: "; strtPrice = getPrice();
 	  cout << "In Slot: "; // show the slot it will be stored in
 	  cout << T.add(el_t(yr, brnd, mdl, ctyMPG, hwyMPG, strtPrice));
-          cout << "  added." << endl; // let user know it was added
+    cout << "  added." << endl; // let user know it was added
 	  break;
 	  //------------------- DELETE A CAR ------------------------------
 	case 4: // this choice will delete a car from the hash table
